@@ -60,7 +60,7 @@ const Skills = () => {
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <img 
-                src="/lovable-uploads/466dd738-928a-4df6-82be-9152e5ecdb96.png" 
+                src="/lovable-uploads/8bd65a81-dc92-4f94-9e78-8ed53b7142db.png" 
                 alt="Portefeuille de compétences" 
                 className="w-full h-auto rounded-lg"
               />

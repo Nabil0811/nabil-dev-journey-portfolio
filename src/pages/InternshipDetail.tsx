@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ChevronLeft, Calendar, Briefcase, User, Users } from 'lucide-react';
@@ -41,8 +42,8 @@ const InternshipDetail = () => {
       teamSize: 3,
       images: [
         "/lovable-uploads/eea7a23b-0799-460a-9ebc-f8ebaf814b1b.png",
-        "/lovable-uploads/91ea0985-02b4-488d-b750-26a72595bc59.png",
-        "/lovable-uploads/42b52c9a-5626-467e-b8a1-821067808f80.png"
+        "/lovable-uploads/466dd738-928a-4df6-82be-9152e5ecdb96.png",
+        "/lovable-uploads/91ea0985-02b4-488d-b750-26a72595bc59.png"
       ]
     },
     fumay: {
