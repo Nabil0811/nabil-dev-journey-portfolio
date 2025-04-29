@@ -6,10 +6,25 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ChevronLeft, User, Users, Code, Database } from 'lucide-react';
 
+type ProjectType = {
+  title: string;
+  description: string;
+  longDescription: string;
+  image: string;
+  tags: string[];
+  type: "dev" | "cyber";
+  teamwork: boolean;
+  teamSize?: number;
+  features: string[];
+  technologies: { name: string; description: string; }[];
+  skills: string[];
+  images: string[];
+};
+
 const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
   
-  const projects = {
+  const projects: Record<string, ProjectType> = {
     "score-resto": {
       title: "Score-Resto",
       description: "Développement d'un site web pour un restaurant en utilisant PHP avec une architecture MVC.",
@@ -234,7 +249,7 @@ const ProjectDetail = () => {
     }
   };
   
-  const project = projects[id as keyof typeof projects];
+  const project = id ? projects[id] : null;
   
   if (!project) {
     return (

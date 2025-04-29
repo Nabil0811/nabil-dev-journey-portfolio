@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Index from "./pages/Index";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Internships from "./pages/Internships";
 import InternshipDetail from "./pages/InternshipDetail";
 import Projects from "./pages/Projects";
@@ -26,6 +28,8 @@ const App = () => (
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/internships" element={<Internships />} />
               <Route path="/internships/:id" element={<InternshipDetail />} />
               <Route path="/projects" element={<Projects />} />

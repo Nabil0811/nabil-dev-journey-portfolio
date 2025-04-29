@@ -74,10 +74,10 @@ const InternshipDetail = () => {
         "Communication avec les parties prenantes"
       ],
       teamwork: false,
+      teamSize: 1,
       images: [
         "/lovable-uploads/cf51b039-bee7-4abe-80b1-09893f2e29f9.png",
-        "/lovable-uploads/91ea0985-02b4-488d-b750-26a72595bc59.png",
-        "/lovable-uploads/466dd738-928a-4df6-82be-9152e5ecdb96.png"
+        "/lovable-uploads/91ea0985-02b4-488d-b750-26a72595bc59.png"
       ]
     }
   };
@@ -126,7 +126,7 @@ const InternshipDetail = () => {
               {internship.teamwork ? (
                 <>
                   <Users className="w-4 h-4 mr-2" />
-                  <span>Projet d'équipe ({internship.teamSize || 'N/A'} personnes)</span>
+                  <span>Projet d'équipe ({internship.teamSize} personnes)</span>
                 </>
               ) : (
                 <>

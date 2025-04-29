@@ -15,7 +15,7 @@ const Projects = () => {
       description: "Développement d'un site web pour un restaurant en PHP avec une architecture MVC. L'application permet de gérer les menus, les réservations et les avis des clients.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop",
       tags: ["PHP", "MVC", "MySQL", "HTML/CSS"],
-      type: "dev",
+      type: "dev" as const,
       teamwork: false
     },
     {
@@ -24,7 +24,7 @@ const Projects = () => {
       description: "Application web permettant de tirer au sort des élèves dans une classe et de les noter. Utile pour les enseignants souhaitant interroger les élèves de façon aléatoire.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop",
       tags: ["PHP", "JavaScript", "HTML/CSS", "MySQL"],
-      type: "dev",
+      type: "dev" as const,
       teamwork: false
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       description: "Application web développée avec Vue.js permettant de créer ou de passer des QCM selon le rôle de l'utilisateur. Elle inclut une gestion des utilisateurs et des statistiques sur les résultats.",
       image: "/lovable-uploads/759cf663-20c7-4797-9fb8-98ba5829fe2d.png",
       tags: ["Vue.js", "JavaScript", "API", "HTML/CSS"],
-      type: "dev",
+      type: "dev" as const,
       teamwork: true
     },
     {
@@ -42,7 +42,7 @@ const Projects = () => {
       description: "Application mobile développée en React Native permettant de gérer les transactions d'une cantine. Elle facilite le paiement des repas et la gestion des soldes des utilisateurs.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&auto=format&fit=crop",
       tags: ["React Native", "JavaScript", "API", "Mobile"],
-      type: "dev",
+      type: "dev" as const,
       teamwork: false
     },
     {
@@ -51,7 +51,7 @@ const Projects = () => {
       description: "Utilisation de Docker pour créer, déployer et exécuter des applications dans des conteneurs. Ce projet démontre la mise en place d'environnements de développement isolés et reproductibles.",
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&auto=format&fit=crop",
       tags: ["Docker", "DevOps", "Containerisation", "Linux"],
-      type: "cyber",
+      type: "cyber" as const,
       teamwork: false
     },
     {
@@ -60,7 +60,7 @@ const Projects = () => {
       description: "Configuration d'une machine virtuelle sous VirtualBox avec Ubuntu Server pour utiliser le terminal de commande Linux. Ce projet comprend l'installation et la configuration de services réseau.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&auto=format&fit=crop",
       tags: ["Ubuntu", "Linux", "VirtualBox", "Terminal"],
-      type: "cyber",
+      type: "cyber" as const,
       teamwork: false
     }
   ];
