@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronRight, Download, Book, Award, Briefcase, FileText } from 'lucide-react';
+import { ChevronRight, Download, Book, Award, Briefcase, FileText, Code, Database, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import SkillCard from '@/components/SkillCard';
 
