@@ -25,7 +25,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ title, skills, icon }) => {
               <span className="text-sm font-medium text-gray-700">{skill.name}</span>
               <span className="text-sm text-gray-500">{skill.level}%</span>
             </div>
-            <Progress value={skill.level} className="h-2 bg-violet-100" indicatorClassName="bg-violet-600" />
+            <Progress value={skill.level} className="h-2 bg-violet-100" />
           </div>
         ))}
       </div>

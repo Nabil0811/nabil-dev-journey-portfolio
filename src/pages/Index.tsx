@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Code, Database } from 'lucide-react';
@@ -33,7 +32,7 @@ const Index = () => {
       description: "Site web d'un restaurant en MVC développé en PHP.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop",
       tags: ["PHP", "MVC", "MySQL", "HTML/CSS"],
-      type: "dev"
+      type: "dev" as const
     },
     {
       id: "success",
@@ -41,7 +40,7 @@ const Index = () => {
       description: "Application web avec Vue.js pour créer ou passer des QCM selon le rôle de l'utilisateur.",
       image: "/lovable-uploads/759cf663-20c7-4797-9fb8-98ba5829fe2d.png",
       tags: ["Vue.js", "JavaScript", "API", "Frontend"],
-      type: "dev"
+      type: "dev" as const
     }
   ];
 

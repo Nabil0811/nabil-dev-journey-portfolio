@@ -116,7 +116,7 @@ const ProjectDetail = () => {
       ],
       images: [
         "/lovable-uploads/759cf663-20c7-4797-9fb8-98ba5829fe2d.png",
-        "/lovable-uploads/1f926fe5-8d14-40d3-8a28-8a7a87fa4dea.png",
+        "/lovable-uploads/1f926fe5-8d14-40d3-8a28-8a7a87fa4dea.png", 
         "/lovable-uploads/e3a5dc30-a428-452c-bdb9-b428a71d324b.png"
       ]
     },
