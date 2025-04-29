@@ -13,6 +13,7 @@ import Internships from "./pages/Internships";
 import InternshipDetail from "./pages/InternshipDetail";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
+import Skills from "./pages/Skills";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/skills" element={<Skills />} />
               <Route path="/internships" element={<Internships />} />
               <Route path="/internships/:id" element={<InternshipDetail />} />
               <Route path="/projects" element={<Projects />} />

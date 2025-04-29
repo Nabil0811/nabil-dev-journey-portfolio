@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ChevronLeft, Calendar, Briefcase, User, Users } from 'lucide-react';
@@ -42,7 +41,7 @@ const InternshipDetail = () => {
       teamSize: 3,
       images: [
         "/lovable-uploads/eea7a23b-0799-460a-9ebc-f8ebaf814b1b.png",
-        "/lovable-uploads/d40e3118-a918-4ad9-b013-728140046b63.png",
+        "/lovable-uploads/91ea0985-02b4-488d-b750-26a72595bc59.png",
         "/lovable-uploads/42b52c9a-5626-467e-b8a1-821067808f80.png"
       ]
     },
@@ -77,7 +76,7 @@ const InternshipDetail = () => {
       teamSize: 1,
       images: [
         "/lovable-uploads/cf51b039-bee7-4abe-80b1-09893f2e29f9.png",
-        "/lovable-uploads/91ea0985-02b4-488d-b750-26a72595bc59.png"
+        "/lovable-uploads/d40e3118-a918-4ad9-b013-728140046b63.png"
       ]
     }
   };
