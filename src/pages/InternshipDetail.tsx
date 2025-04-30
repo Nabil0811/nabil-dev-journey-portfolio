@@ -77,7 +77,8 @@ const InternshipDetail = () => {
       teamSize: 1,
       images: [
         "/lovable-uploads/cf51b039-bee7-4abe-80b1-09893f2e29f9.png",
-        "/lovable-uploads/d40e3118-a918-4ad9-b013-728140046b63.png"
+        "/lovable-uploads/333b508c-92ac-4195-9d6c-a371d41cf1db.png",
+        "/lovable-uploads/c7c160e6-ab53-4d10-b06d-89abffc61f0a.png"
       ]
     }
   };
