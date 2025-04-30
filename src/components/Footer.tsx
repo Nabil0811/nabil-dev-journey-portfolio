@@ -52,10 +52,6 @@ const Footer = () => {
                   07 82 90 64 13
                 </a>
               </div>
-              <p className="flex items-start mt-2">
-                <span className="mr-2">📍</span>
-                <span>140 rue de l'égalité, Revin, 08500</span>
-              </p>
             </div>
           </div>
         </div>

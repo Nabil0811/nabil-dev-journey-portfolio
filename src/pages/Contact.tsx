@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -114,8 +114,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium text-gray-800">Email</h3>
-                      <a href="mailto:nabil.bennadi@example.com" className="text-violet-600 hover:underline">
-                        nabil.bennadi@example.com
+                      <a href="mailto:nabil.bennadi@outlook.fr" className="text-violet-600 hover:underline">
+                        nabil.bennadi@outlook.fr
                       </a>
                     </div>
                   </div>
@@ -126,21 +126,9 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium text-gray-800">Téléphone</h3>
-                      <a href="tel:+33600000000" className="text-violet-600 hover:underline">
-                        +33 6 00 00 00 00
+                      <a href="tel:0782906413" className="text-violet-600 hover:underline">
+                        07 82 90 64 13
                       </a>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <div className="bg-violet-100 p-3 rounded-full mr-4">
-                      <MapPin className="h-5 w-5 text-violet-600" />
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-medium text-gray-800">Localisation</h3>
-                      <p className="text-gray-600">
-                        Charleville-Mézières, Ardennes, France
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -157,25 +145,6 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Map Section */}
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-2xl font-semibold mb-6 text-violet-700 text-center">Localisation</h2>
-          <div className="aspect-video rounded-lg overflow-hidden shadow-md">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41381.662851905025!2d4.6971711865966715!3d49.76258979933147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea0e195c34ad19%3A0x40a5fb99a3b45c0!2sCharleville-M%C3%A9zi%C3%A8res%2C%20France!5e0!3m2!1sfr!2sus!4v1713978705051!5m2!1sfr!2sus" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Charleville-Mézières map"
-            />
           </div>
         </div>
       </section>
