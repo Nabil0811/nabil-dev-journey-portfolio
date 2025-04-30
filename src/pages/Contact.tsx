@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Phone, Send } from 'lucide-react';
+import { Mail, Phone, Send, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -134,12 +134,13 @@ const Contact = () => {
                 </div>
               </div>
               
-              <h3 className="text-xl font-medium mb-4 text-violet-700">Disponibilité</h3>
-              <p className="text-gray-700 mb-6">
-                Je suis actuellement en formation mais disponible pour des stages, projets ou opportunités professionnelles. N'hésitez pas à me contacter pour discuter de votre projet.
-              </p>
+              <h3 className="text-xl font-medium mb-4 text-violet-700">Télécharger mon CV</h3>
+              <a href="/cv-nabil-bennadi.pdf" download className="inline-flex items-center px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-md transition-colors">
+                <Download className="mr-2 h-5 w-5" />
+                Télécharger mon CV
+              </a>
               
-              <div className="bg-violet-50 border border-violet-100 rounded-lg p-4">
+              <div className="bg-violet-50 border border-violet-100 rounded-lg p-4 mt-6">
                 <p className="text-violet-700 font-medium">
                   Réponse généralement dans les 24-48 heures.
                 </p>

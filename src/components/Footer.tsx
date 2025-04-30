@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { Mail, Phone, Github, Linkedin } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin, Download } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-violet-300">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-violet-300">
+              <a href="https://www.linkedin.com/in/nabil-bennadi-21b977344/" target="_blank" rel="noopener noreferrer" className="hover:text-violet-300">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
